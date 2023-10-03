@@ -39,30 +39,35 @@
         app:layout_constraintGuide_percent="0.5" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnGoToNumeric"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/light_blue"
         android:backgroundTint="@color/light_blue"
+        android:onClick="goToNumericFragment"
         android:text="@string/numerica"
+        android:textSize="20sp"
         app:backgroundTint="#0674A6"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/header2" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnGoToMedia"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/light_blue"
         android:backgroundTint="@color/light_blue"
+        android:onClick="goToMediaFragment"
         android:text="@string/media"
+        android:textSize="20sp"
         app:backgroundTint="@color/light_blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/header2" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="0dp"
         android:layout_height="20dp"
         android:background="@color/dark_blue"
@@ -79,5 +84,15 @@
             android:textAlignment="center"
             android:textColor="@color/white" />
     </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoToNumeric">
+
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

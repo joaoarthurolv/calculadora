@@ -3,4 +3,10 @@
     <string name="numerica">Numérica</string>
     <string name="media">Média</string>
     <string name="copyright">© 2023 João Arthur</string>
+    <string name="headerMedia">Calcule sua média</string>
+    <string name="gradeOneHint">Nota 1° Unidade</string>
+    <string name="gradeTwoHint">Nota 2° Unidade</string>
+    <string name="gradeThreeHint">Nota 3° Unidade</string>
+    <string name="status">Situação:</string>
+    <string name="textCalculate">Calcular</string>
 </resources>
