@@ -9,4 +9,27 @@
     <string name="gradeThreeHint">Nota 3° Unidade</string>
     <string name="status">Situação:</string>
     <string name="textCalculate">Calcular</string>
+
+    <!--' Calculadora Numérica '-->
+    <string name="btn00">0</string>
+    <string name="btn01">1</string>
+    <string name="btn02">2</string>
+    <string name="btn03">3</string>
+    <string name="btn04">4</string>
+    <string name="btn05">5</string>
+    <string name="btn06">6</string>
+    <string name="btn07">7</string>
+    <string name="btn08">8</string>
+    <string name="btn09">9</string>
+
+    <string name="resultado">Resultado</string>
+
+    <!-- Operações -->
+    <string name="btnSum">+</string>
+    <string name="btnSub">-</string>
+    <string name="btnTimes">*</string>
+    <string name="btnDiv">/</string>
+    <string name="btnDel">DEL</string>
+    <string name="btnEqual">=</string>
+
 </resources>
