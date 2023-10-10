@@ -1,7 +1,7 @@
 # Mobile numeric calculator and school grade calculator
 
 ## Description
-Mobile calculator developed in the Mobile Development subject at UFRN. The app is divided by fragments that representes the two of its features.
+Mobile calculator developed in the Mobile Development subject at UFRN. The app is divided by fragments that represents the two of its features.
 
 ### Numeric Fragment
 The numeric fragment acts like a real and normal calculator. You can do any of the main math operations.
