@@ -47,6 +47,9 @@ public class NumericFragment extends Fragment {
                             afterOperation = true;
                             if(isOperationDel(button.getText().toString())){
                                 tvResult.setText("");
+                                numberOne = null;
+                                numberTwo = null;
+                                operation = null;
                             }
                             else if(numberOne == null){
                                 numberOne = Float.valueOf(tvResult.getText().toString());
